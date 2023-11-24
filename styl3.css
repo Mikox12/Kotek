@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #c7c4c4;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('kotel.jpeg');
+  background-size: cover;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.text-box {
+  border: 2px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.cat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#blackCat {
+  width: 200px;
+  transition: transform 1s ease-in-out;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.cat-container[data-left] {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: unset;
+}
+
+.text-box{
+    left: 10%;
+}
